@@ -3,11 +3,13 @@
 "
 set nocompatible
 filetype off
-set rtp+=/home/vagrant/.dotfiles/vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 "------------------------------------------------------------------------------
 
 Plugin 'gmarik/Vundle.vim'
+
+Plugin 'flazz/vim-colorschemes'
 
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-fugitive'
@@ -28,16 +30,14 @@ Plugin 'Lokaltog/vim-powerline'
 
 Plugin 'tpope/vim-git'
 
-"Plugin 'vim-ruby/vim-ruby'
-"Plugin 'tpope/vim-rails'
-"Plugin 'skwp/vim-rspec'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'skwp/vim-rspec'
 "Plugin 'tpope/vim-cucumber'
 
-"Plugin 'fatih/vim-go'
-
 Plugin 'pangloss/vim-javascript'
-"Plugin 'mmalecki/vim-node.js'
-"Plugin 'kchmck/vim-coffee-script'
+Plugin 'mmalecki/vim-node.js'
+Plugin 'kchmck/vim-coffee-script'
 "Plugin 'nono/jquery.vim'
 "Plugin 'briancollins/vim-jst'
 
@@ -179,7 +179,7 @@ let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 let g:solarized_visibility="high"
 set background=dark
-silent! colorscheme solarized
+colorscheme monokain
 
 "------------------------------------------------------------------------------
 " filetypes
