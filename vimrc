@@ -3,8 +3,8 @@
 "
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+set rtp+=~/dotdotfiles/vim/bundle/Vundle.vim
+call vundle#begin('~/dotdotfiles/vim/bundle')
 "------------------------------------------------------------------------------
 
 Plugin 'gmarik/Vundle.vim'
