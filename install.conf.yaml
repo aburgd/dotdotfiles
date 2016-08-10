@@ -5,5 +5,5 @@
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.vim: vim
-    ~/.oh-my-zsh: omz
+    ~/.oh-my-zsh: oh-my-zsh
     ~/.gitconfig: gitconfig
