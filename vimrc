@@ -3,7 +3,7 @@
 "
 set nocompatible
 filetype off
-set rtp+=~/dotdotfiles/vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin('~/dotdotfiles/vim/bundle')
 "------------------------------------------------------------------------------
 
@@ -326,4 +326,3 @@ map <leader>/ <plug>NERDCommenterToggle<CR>
 
 " Highlight column 80
 set cc=80
-
