@@ -6,3 +6,4 @@
     ~/.zshrc: zshrc
     ~/.vim: vim
     ~/.oh-my-zsh: omz
+    ~/.gitconfig: gitconfig

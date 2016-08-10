@@ -1,0 +1,9 @@
+[user]
+	email = aeburgd@gmail.com
+	name = Alec Burgdorf
+[credential]
+	helper = store
+[push]
+	default = simple
+[hub]
+	protocol = https
