@@ -58,8 +58,6 @@ Plugin 'hail2u/vim-css3-syntax'
 Plugin 'tpope/vim-markdown'
 Plugin 'timcharper/textile.vim'
 
-Plugin 'vim-scripts/csv.vim'
-
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
