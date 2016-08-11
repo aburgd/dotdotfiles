@@ -7,3 +7,4 @@
     ~/.vim: vim
     ~/.oh-my-zsh: oh-my-zsh
     ~/.gitconfig: gitconfig
+    ~/.hub: hub
