@@ -4,7 +4,7 @@
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin('~/dotdotfiles/vim/bundle')
+call vundle#begin()
 "------------------------------------------------------------------------------
 
 Plugin 'gmarik/Vundle.vim'
@@ -14,13 +14,8 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'scrooloose/nerdtree'
 Plugin 'mileszs/ack.vim'
-Plugin 'kien/ctrlp.vim'
-Plugin 'vim-scripts/bufkill.vim'
 
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'scrooloose/syntastic'
 Plugin 'ervandew/supertab'
 Plugin 'vim-scripts/Rename2'
 
@@ -45,8 +40,6 @@ Plugin 'othree/html5.vim'
 Plugin 'hail2u/vim-css3-syntax'
 "Plugin 'cakebaker/scss-syntax.vim'
 "Plugin 'groenewege/vim-less'
-"Plugin 'wavded/vim-stylus'
-"Plugin 'slim-template/vim-slim.git'
 "Plugin 'tpope/vim-haml'
 "Plugin 'digitaltoad/vim-jade'
 "Plugin 'nono/vim-handlebars'

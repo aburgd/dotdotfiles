@@ -7,3 +7,5 @@
 	default = simple
 [hub]
 	protocol = https
+[core]
+	editor = vim
