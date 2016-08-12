@@ -4,7 +4,5 @@
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
-    ~/.vim: vim
-    ~/.oh-my-zsh: oh-my-zsh
     ~/.gitconfig: gitconfig
     ~/.hub: hub
