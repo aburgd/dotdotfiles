@@ -7,6 +7,19 @@
     ~/.gitconfig: gitconfig
 
 - shell:
-  - [git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim, Installing Vundle.vim]
-  - [vim +PluginInstall +qall]
-  - [sudo apt-get install zsh curl -y -qq && sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)", Installing O-My-Zsh]
+  -
+    command: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    stderr: true
+    stdout: true
+  -
+    command: vim +PluginInstall +qall
+    stderr: true
+    stdout: true
+  -
+    command: sudo apt-get install zsh curl -y -qq
+    stderr: true
+    stdout: true
+  -
+    command: sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+    stderr: true
+    stdout: true
