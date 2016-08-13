@@ -36,3 +36,5 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 # Add hub alias for github
 eval "$(hub alias -s)"
 
+# GOPATH for golang
+export GOPATH=$HOME/work
