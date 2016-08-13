@@ -38,3 +38,5 @@ eval "$(hub alias -s)"
 
 # GOPATH for golang
 export GOPATH=$HOME/work
+# Add GOPATH to PATH for bin
+export PATH=$PATH:$GOPATH/bin
