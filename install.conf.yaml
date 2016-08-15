@@ -6,6 +6,7 @@
     ~/.zshrc: zshrc
     ~/.gitconfig: gitconfig
     ~/.irbrc: irbrc
+    ~/.bashrc: bashrc
 
 - shell:
   -
