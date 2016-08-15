@@ -5,6 +5,7 @@
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.gitconfig: gitconfig
+    ~/.irbrc: irbrc
 
 - shell:
   -
