@@ -13,7 +13,6 @@ Plugin 'flazz/vim-colorschemes'
 
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-fugitive'
-Plugin 'Lokaltog/vim-easymotion'
 Plugin 'mileszs/ack.vim'
 
 Plugin 'ervandew/supertab'
@@ -39,17 +38,14 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'othree/html5.vim'
 Plugin 'hail2u/vim-css3-syntax'
 "Plugin 'cakebaker/scss-syntax.vim'
-"Plugin 'groenewege/vim-less'
-"Plugin 'tpope/vim-haml'
 "Plugin 'digitaltoad/vim-jade'
 "Plugin 'nono/vim-handlebars'
 "Plugin 'tpope/vim-liquid'
 
-"Plugin 'github.com/ajf/puppet-vim'
-"Plugin 'bdd/vim-scala'
-"Plugin 'vim-scripts/Arduino-syntax-file'
 Plugin 'tpope/vim-markdown'
 Plugin 'timcharper/textile.vim'
+
+Plugin 'metakirby5/codi.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
