@@ -94,8 +94,6 @@ set nofoldenable
 set autoindent
 set smartindent
 set smarttab     " smarter tab levels
-set nowrap       " don't wrap lines
-set textwidth=0
 set shiftwidth=2 " autoindent is two spaces
 set softtabstop=2
 set tabstop=2    " a tab is two spaces
@@ -166,7 +164,7 @@ let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 let g:solarized_visibility="high"
 set background=dark
-colorscheme monokain
+colorscheme my_sol_dark
 
 "------------------------------------------------------------------------------
 " filetypes
