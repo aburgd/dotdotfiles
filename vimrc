@@ -27,20 +27,13 @@ Plugin 'tpope/vim-git'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 Plugin 'skwp/vim-rspec'
-"Plugin 'tpope/vim-cucumber'
 
 Plugin 'pangloss/vim-javascript'
 Plugin 'mmalecki/vim-node.js'
 Plugin 'kchmck/vim-coffee-script'
-"Plugin 'nono/jquery.vim'
-"Plugin 'briancollins/vim-jst'
 
 Plugin 'othree/html5.vim'
 Plugin 'hail2u/vim-css3-syntax'
-"Plugin 'cakebaker/scss-syntax.vim'
-"Plugin 'digitaltoad/vim-jade'
-"Plugin 'nono/vim-handlebars'
-"Plugin 'tpope/vim-liquid'
 
 Plugin 'tpope/vim-markdown'
 Plugin 'timcharper/textile.vim'
@@ -77,8 +70,6 @@ set autoread
 "------------------------------------------------------------------------------
 " editing
 "
-"set showmatch      " Show matching brackets
-"set matchtime=5    " bracket blinking
 set showcmd        " show incomplete commands in lower right hand corner
 set showmode
 set hidden         " current buffer can be put to the background without writing to disk
@@ -217,14 +208,6 @@ let g:ackprg="ag --nogroup --nocolor --column"
 let g:syntastic_enable_signs=1
 let g:syntastic_quiet_messages = {'level': 'warnings'}
 let g:syntastic_auto_loc_list=2
-
-""" nerdtree
-let NERDTreeIgnore=['\.pyc$', '\.pyo$', '\.rbc$', '\.rbo$', '\.class$', '\.o$', '\~$']
-let NERDTreeHijackNetrw = 0
-
-augroup AuNERDTreeCmd
-autocmd AuNERDTreeCmd VimEnter * call s:CdIfDirectory(expand("<amatch>"))
-autocmd AuNERDTreeCmd FocusGained * call s:UpdateNERDTree()
 
 " If the parameter is a directory, cd into it
 function s:CdIfDirectory(directory)
