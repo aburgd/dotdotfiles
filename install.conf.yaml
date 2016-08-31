@@ -14,7 +14,7 @@
     stderr: true
     stdout: true
   -
-    command: vim +PluginInstall +qall
+    command: git clone https://github.com/aburgd/vim-sol-dark.git ~/.vim/bundle/colors
     stdin: true
     stderr: true
     stdout: true
