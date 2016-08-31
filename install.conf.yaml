@@ -15,6 +15,7 @@
     stdout: true
   -
     command: vim +PluginInstall +qall
+    stdin: true
     stderr: true
     stdout: true
   -
