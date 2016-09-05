@@ -16,7 +16,6 @@
 
   -
     command: wget https://git.io/visKf ~/.vim/bundle/vim-colorschemes/my_sol_dark.vim
-    stdin: true
     stderr: true
     stdout: true
   -
