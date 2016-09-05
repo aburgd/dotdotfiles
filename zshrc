@@ -42,6 +42,6 @@ export GOPATH=$HOME/work
 export PATH=$PATH:$GOPATH/bin
 
 # Add pyenv
-export PATH="~/.pyenv/bin:$PATH"
+export PATH="/home/vagrant/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
