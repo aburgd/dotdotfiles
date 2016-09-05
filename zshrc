@@ -40,3 +40,8 @@ eval "$(hub alias -s)"
 export GOPATH=$HOME/work
 # Add GOPATH to PATH for bin
 export PATH=$PATH:$GOPATH/bin
+
+# Add pyenv
+export PATH="~/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
