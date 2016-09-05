@@ -13,8 +13,9 @@
     command: git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     stderr: true
     stdout: true
+
   -
-    command: git clone https://github.com/aburgd/vim-sol-dark.git ~/.vim/bundle/vim-colorschemes/colors
+    command: wget https://git.io/visKf ~/.vim/bundle/vim-colorschemes/my_sol_dark.vim
     stdin: true
     stderr: true
     stdout: true
