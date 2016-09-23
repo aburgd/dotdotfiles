@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh installation.
   export ZSH=/home/vagrant/.oh-my-zsh
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="half-life"
 
 HIST_STAMPS="dd.mm.yyyy"
 
@@ -45,3 +45,6 @@ export PATH=$PATH:$GOPATH/bin
 export PATH="/home/vagrant/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
+
+# Set TERM colors
+TERM=xterm-256color
