@@ -48,3 +48,5 @@ eval "$(pyenv virtualenv-init -)"
 
 # Set TERM colors
 TERM=xterm-256color
+
+unsetopt PROMPT_SP
