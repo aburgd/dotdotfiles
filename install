@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
 set -e
-
+if [ -a .zshrc.pre-oh-my-zsh ]
+then
+  rm .zshrc.pre-oh-my-zsh
+fi
 CONFIG="install.conf.yaml"
 DOTBOT_DIR="dotbot"
 

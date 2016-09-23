@@ -50,3 +50,10 @@ eval "$(pyenv virtualenv-init -)"
 TERM=xterm-256color
 
 unsetopt PROMPT_SP
+
+# Alias for checking aws ec2 instance status
+alias stat-aws='aws ec2 describe-instances'
+
+# Adding Go binary to PATH
+export PATH=$PATH:/usr/local/go/bin
+
