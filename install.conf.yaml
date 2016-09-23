@@ -23,6 +23,7 @@
     command: echo "Don't forget hub and OMZ!"
   
   -
-    command: echo "https://github.com/github/hub/releases \n" \
-        echo "https://github.com/robbyrussell/oh-my-zsh/"
+    command: echo "https://github.com/github/hub/releases"
+  -
+    command: echo "https://github.com/robbyrussell/oh-my-zsh/"
 
