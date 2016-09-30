@@ -35,6 +35,8 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'othree/html5.vim'
 Plugin 'hail2u/vim-css3-syntax'
 
+Plugin 'fatih/vim-go'
+
 Plugin 'tpope/vim-markdown'
 Plugin 'timcharper/textile.vim'
 
@@ -155,7 +157,7 @@ let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 let g:solarized_visibility="high"
 set background=dark
-colorscheme my_sol_dark
+colorscheme molokai
 
 "------------------------------------------------------------------------------
 " filetypes
