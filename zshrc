@@ -57,3 +57,4 @@ alias stat-aws='aws ec2 describe-instances'
 # Adding Go binary to PATH
 export PATH=$PATH:/usr/local/go/bin
 
+[[ -s "/home/vagrant/.gvm/scripts/gvm" ]] && source "/home/vagrant/.gvm/scripts/gvm"
