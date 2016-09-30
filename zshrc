@@ -5,7 +5,7 @@ ZSH_THEME="half-life"
 
 HIST_STAMPS="dd.mm.yyyy"
 
-plugins=(git ruby rails)
+plugins=(git ruby rails golang)
 
 export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
