@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/vagrant/.oh-my-zsh
+  export ZSH=/home/alec/.oh-my-zsh
 
 ZSH_THEME="half-life"
 
@@ -42,7 +42,7 @@ export GOPATH=$HOME/work
 export PATH=$PATH:$GOPATH/bin
 
 # Add pyenv
-export PATH="/home/vagrant/.pyenv/bin:$PATH"
+export PATH="/home/alec/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
@@ -57,4 +57,6 @@ alias stat-aws='aws ec2 describe-instances'
 # Adding Go binary to PATH
 export PATH=$PATH:/usr/local/go/bin
 
+# Add nautilus alias for Ubuntu GNOME
+alias files='nautilus'
 [[ -s "/home/vagrant/.gvm/scripts/gvm" ]] && source "/home/vagrant/.gvm/scripts/gvm"
